@@ -35,9 +35,9 @@
 // |      | BT1 | BT2 | BT3 | BT4 | BT5 |   |BTCLR| LFT | DWN | RGT |     |      |
 //                    | ALT |     | SPC |   | ENT |     | GUI |
                         bindings = <
-   &kp TAB &kp N1       &kp N2   &kp N3  &kp N4    &kp N5        &kp N6         &kp N7   &kp N8    &kp N9    &kp N0    &kp BSPC
-   &trans  &kp CAPS     &trans       &kp K_COPY    &kp K_PASTE   &trans         &trans   &kp HOME   &kp UP   &kp UP    &kp END  &trans
-   &trans  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &BT_CLR  &kp LEFT   &kp DOWN &kp RIGHT &trans  &trans
+   &kp TAB &kp N1       &kp N2       &kp N3        &kp N4        &kp N5         &kp N6      &kp N7     &kp N8   &kp N9    &kp N0  &kp BSPC
+   &trans  &kp CAPS     &trans       &kp K_COPY    &kp K_PASTE   &trans         &trans      &kp HOME   &kp UP   &kp END   &trans  &trans
+   &trans  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &bt BT_CLR  &kp LEFT   &kp DOWN &kp RIGHT &trans  &trans
                           	         &kp LGUI      &trans           &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
